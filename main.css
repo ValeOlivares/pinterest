@@ -1,0 +1,79 @@
+.contenedor{
+  width: 100%;
+  height: 50px;
+  float: left;
+  border-bottom: 1px solid #B4B4B4;
+}
+
+ .fa-user, .fa-bars, .fa-commenting {
+  color: #B4B4B4;
+  float: right;
+  margin: 10px 10px;
+  margin-right: 10px;
+}
+.fa-pinterest {
+ color: red;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    background-color: red;
+}
+
+.buscador{
+  width: 70%;
+  height: 5%;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  -khtml-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  background-color:#EEEEEF;
+}
+
+.menu{
+  list-style: none;
+  text-align: center;
+
+
+}
+ li {
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius:10px;
+  border: 1px solid #cccccc;
+  background-color:#080510;
+  margin-top: 10px;
+
+}
+a{
+  text-decoration: none;
+  display:block;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.foto{
+  border-radius:20px;
+  width: 270px;
+  margin: 30px;
+}
+.fotos
+{
+  column-count: 4;
+}
+.pins{
+  text-align: right;
+  margin: 10px;
+  top:5px;
+  font-size: 18px;s
+}
